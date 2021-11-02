@@ -1,0 +1,42 @@
+2021-11-02 22:11:06,755 [MainThread  ] [INFO ]  GROMACS Pdb2gmx 20191 version detected
+2021-11-02 22:11:06,756 [MainThread  ] [INFO ]  Not using any container
+2021-11-02 22:11:06,756 [MainThread  ] [INFO ]  gmx -nobackup -nocopyright pdb2gmx -f 3HTB_fixed.pdb -o 3HTB_pdb2gmx.gro -p p2g.top -water spce -ff amber99sb-ildn -i posre.itp
+
+2021-11-02 22:11:07,445 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-02 22:11:07,446 [MainThread  ] [INFO ]  
+Using the Amber99sb-ildn force field in directory amber99sb-ildn.ff
+
+going to rename amber99sb-ildn.ff/aminoacids.r2b
+going to rename amber99sb-ildn.ff/dna.r2b
+going to rename amber99sb-ildn.ff/rna.r2b
+Reading 3HTB_fixed.pdb...
+Read '', 1364 atoms
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+There are 1 chains and 0 blocks of water and 163 residues with 1364 atoms
+
+  chain  #res #atoms
+  1 'A'   163   1364  
+
+Reading residue database... (Amber99sb-ildn)
+Processing chain 1 'A' (1364 atoms, 163 residues)
+Identified residue MET1 as a starting terminus.
+Identified residue ASN163 as a ending terminus.
+Checking for duplicate atoms....
+Now there are 1300 atoms. Deleted 64 duplicates.
+Generating any missing hydrogen atoms and/or adding termini.
+Now there are 163 residues with 2614 atoms
+		--------- PLEASE NOTE ------------
+You have successfully generated a topology from: 3HTB_fixed.pdb.
+The Amber99sb-ildn force field and the spce water model are used.
+		--------- ETON ESAELP ------------
+
+2021-11-02 22:11:07,448 [MainThread  ] [INFO ]  Compressing topology to: 3HTB_pdb2gmx_top.zip
+2021-11-02 22:11:07,450 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/forcefield.itp
+2021-11-02 22:11:07,462 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/spce.itp
+2021-11-02 22:11:07,464 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/ions.itp
+2021-11-02 22:11:07,468 [MainThread  ] [INFO ]  Adding:
+2021-11-02 22:11:07,469 [MainThread  ] [INFO ]  ['p2g.top', 'posre.itp']
+2021-11-02 22:11:07,470 [MainThread  ] [INFO ]  to: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_pdb2gmx_top.zip
+2021-11-02 22:11:07,473 [MainThread  ] [INFO ]  Removed: ['p2g.top', 'posre.itp']

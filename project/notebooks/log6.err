@@ -1,0 +1,45 @@
+2021-11-02 22:13:30,782 [MainThread  ] [INFO ]                       :-) GROMACS - gmx pdb2gmx, 2021.2 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright pdb2gmx -f 3HTB_fixed.pdb -o 3HTB_pdb2gmx.gro -p p2g.top -water spce -ff amber99sb-ildn -i posre.itp
+
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.r2b
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/dna.r2b
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/rna.r2b
+there were 0 atoms with zero occupancy and 178 atoms with          occupancy unequal to one (out of 1364 atoms). Check your pdb file.
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/atomtypes.atp
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.rtp
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/dna.rtp
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/rna.rtp
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.hdb
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/dna.hdb
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/rna.hdb
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.n.tdb
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.c.tdb
+Analysing hydrogen-bonding network for automated assignment of histidine
+ protonation. 273 donors and 248 acceptors were found.
+There are 347 hydrogen bonds
+Will use HISD for residue 31
+8 out of 8 lines of specbond.dat converted successfully
+Special Atom Distance matrix:
+                    MET1    MET6   HIS31   CYS54   CYS97  MET106
+                    SD10    SD56  NE2276   SG446   SG808   SD883
+    MET6    SD56   0.631
+   HIS31  NE2276   2.196   1.931
+   CYS54   SG446   2.781   2.718   1.052
+   CYS97   SG808   0.820   0.539   2.117   2.897
+  MET106   SD883   1.900   1.314   1.848   2.841   1.635
+  MET120   SD982   2.525   2.014   3.286   4.293   2.112   1.520
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/aminoacids.arn
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/dna.arn
+Opening force field file /usr/local/gromacs/share/gromacs/top/amber99sb-ildn.ff/rna.arn
+Before cleaning: 6889 pairs
+Before cleaning: 7252 dihedrals
+Keeping all generated dihedrals
+
+GROMACS reminds you: "It's Not Dark Yet, But It's Getting There" (Bob Dylan)
+
+

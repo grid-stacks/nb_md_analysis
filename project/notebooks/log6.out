@@ -1,0 +1,78 @@
+2021-11-02 22:13:29,172 [MainThread  ] [INFO ]  GROMACS Pdb2gmx 20212 version detected
+2021-11-02 22:13:29,173 [MainThread  ] [INFO ]  Not using any container
+2021-11-02 22:13:29,174 [MainThread  ] [INFO ]  /usr/local/gromacs/bin/gmx -nobackup -nocopyright pdb2gmx -f 3HTB_fixed.pdb -o 3HTB_pdb2gmx.gro -p p2g.top -water spce -ff amber99sb-ildn -i posre.itp
+
+2021-11-02 22:13:30,780 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-02 22:13:30,781 [MainThread  ] [INFO ]  Using the Amber99sb-ildn force field in directory amber99sb-ildn.ff
+
+going to rename amber99sb-ildn.ff/aminoacids.r2b
+
+going to rename amber99sb-ildn.ff/dna.r2b
+
+going to rename amber99sb-ildn.ff/rna.r2b
+Reading 3HTB_fixed.pdb...
+Read '', 1364 atoms
+
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+
+There are 1 chains and 0 blocks of water and 163 residues with 1364 atoms
+
+  chain  #res #atoms
+
+  1 'A'   163   1364  
+
+there were 0 atoms with zero occupancy and 178 atoms with          occupancy unequal to one (out of 1364 atoms). Check your pdb file.
+
+Reading residue database... (Amber99sb-ildn)
+
+Processing chain 1 'A' (1364 atoms, 163 residues)
+
+Identified residue MET1 as a starting terminus.
+
+Identified residue ASN163 as a ending terminus.
+
+Checking for duplicate atoms....
+
+Now there are 1300 atoms. Deleted 64 duplicates.
+
+Generating any missing hydrogen atoms and/or adding termini.
+
+Now there are 163 residues with 2614 atoms
+
+Making bonds...
+
+Number of bonds was 2635, now 2634
+
+Generating angles, dihedrals and pairs...
+
+Making cmap torsions...
+
+There are 7252 dihedrals,  522 impropers, 4751 angles
+          6847 pairs,     2634 bonds and     0 virtual sites
+
+Total mass 18512.384 a.m.u.
+
+Total charge 6.000 e
+
+Writing topology
+
+Writing coordinate file...
+
+		--------- PLEASE NOTE ------------
+
+You have successfully generated a topology from: 3HTB_fixed.pdb.
+
+The Amber99sb-ildn force field and the spce water model are used.
+
+		--------- ETON ESAELP ------------
+
+2021-11-02 22:13:30,782 [MainThread  ] [INFO ]  Compressing topology to: 3HTB_pdb2gmx_top.zip
+2021-11-02 22:13:30,784 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/forcefield.itp
+2021-11-02 22:13:30,796 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/spce.itp
+2021-11-02 22:13:30,797 [MainThread  ] [INFO ]  Ignored file amber99sb-ildn.ff/ions.itp
+2021-11-02 22:13:30,800 [MainThread  ] [INFO ]  Adding:
+2021-11-02 22:13:30,800 [MainThread  ] [INFO ]  ['p2g.top', 'posre.itp']
+2021-11-02 22:13:30,801 [MainThread  ] [INFO ]  to: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_pdb2gmx_top.zip
+2021-11-02 22:13:30,802 [MainThread  ] [INFO ]  Removed: ['p2g.top', 'posre.itp']
