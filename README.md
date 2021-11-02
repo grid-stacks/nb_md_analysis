@@ -5,6 +5,7 @@ This project illustrates the simulation protein in complex with a ligand with ju
 ## Create New Environment
 
 `conda env create -f .conda_env/nb_md_analysis.yml`
+`conda activate nb_md_analysis`
 `jupyter-nbextension enable --py --user widgetsnbextension`
 `jupyter-nbextension enable --py --user nglview`
 
