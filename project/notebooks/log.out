@@ -1,0 +1,2 @@
+2021-11-02 21:36:14,766 [MainThread  ] [INFO ]  Downloading: 3htb from: https://www.ebi.ac.uk/pdbe/entry-files/download/pdb3htb.ent
+2021-11-02 21:36:17,580 [MainThread  ] [INFO ]  Writting pdb to: 3HTB.orig.pdb
