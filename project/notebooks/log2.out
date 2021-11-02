@@ -1,0 +1,64 @@
+2021-11-02 21:43:38,883 [MainThread  ] [INFO ]  Creating 338b0648-0a86-4a1f-bd41-af8bce590de2 temporary folder
+2021-11-02 21:43:38,884 [MainThread  ] [INFO ]  check_structure -i /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB.orig.pdb -o 3HTB.pdb --force_save --non_interactive command_list --list 338b0648-0a86-4a1f-bd41-af8bce590de2/extract_prot.lst
+
+2021-11-02 21:43:39,387 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-02 21:43:39,388 [MainThread  ] [INFO ]  ===============================================================================
+=                   BioBB structure checking utility v3.8.1                   =
+=                 A. Hospital, P. Andrio, J.L. Gelpi 2018-21                  =
+===============================================================================
+
+Warning: sequence features only available in mmCIF format or with external fasta input
+Structure /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB.orig.pdb loaded
+ Title: 2-propylphenol in complex with t4 lysozyme l99a/m102q
+ Experimental method: x-ray diffraction
+ Keywords: hydrolase, glycosidase, bacteriolytic enzyme, antimicrobial
+ Resolution (A): 1.81
+
+ Num. models: 1
+ Num. chains: 1 (A: Protein)
+ Num. residues:  387
+ Num. residues with ins. codes:  0
+ Num. HETATM residues:  224
+ Num. ligands or modified residues:  4
+ Num. water mol.:  220
+ Num. atoms:  1544
+Small mol ligands found
+PO4 A165
+PO4 A166
+JZ4 A167
+BME A168
+
+
+Step 1: ligands --remove All
+
+Running ligands. Options: --remove All
+4 Ligands detected
+ PO4 A165
+ PO4 A166
+ JZ4 A167
+ BME A168
+Ligands removed All (4)
+
+Step 2: water --remove Yes
+
+Running water. Options: --remove Yes
+220 Water molecules detected
+220 Water molecules removed
+Command list completed
+Final Num. models: 1
+Final Num. chains: 1 (A: Protein)
+Final Num. residues:  163
+Final Num. residues with ins. codes:  0
+Final Num. HETATM residues:  0
+Final Num. ligands or modified residues:  0
+Final Num. water mol.:  0
+Final Num. atoms:  1300
+Structure saved on 3HTB.pdb
+
+2021-11-02 21:43:39,388 [MainThread  ] [INFO ]  Not using any container
+2021-11-02 21:43:39,389 [MainThread  ] [INFO ]  
+
+2021-11-02 21:43:39,395 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-02 21:43:39,396 [MainThread  ] [INFO ]  Removed: []
