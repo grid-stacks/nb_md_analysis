@@ -1,0 +1,5 @@
+2021-11-03 06:04:29,096 [MainThread  ] [INFO ]  Not using any container
+2021-11-03 06:04:29,097 [MainThread  ] [INFO ]  reduce -NUClear -OH -ROTNH3 -ALLALT /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/JZ4.pdb > JZ4.reduce.H.pdb
+
+2021-11-03 06:04:29,236 [MainThread  ] [INFO ]  Exit code 0
+

@@ -1,0 +1,15 @@
+; JZ4params_GMX.top created by acpype (v: 2019-11-07T23:16:00CET) on Wed Nov  3 06:12:26 2021
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include JZ4params.itp topology
+#include "JZ4params.itp"
+
+[ system ]
+ JZ4params
+
+[ molecules ]
+; Compound        nmols
+ JZ4params 1     

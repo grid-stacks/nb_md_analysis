@@ -1,0 +1,35 @@
+2021-11-03 06:04:29,237 [MainThread  ] [INFO ]  reduce: version 3.3 06/02/2016, Copyright 1997-2016, J. Michael Word
+Processing file: "/home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/JZ4.pdb"
+Database of HETATM connections: "/home/dhnchandan/anaconda3/envs/nb_md_analysis//dat/reduce_wwPDB_het_dict.txt"
+VDW dot density = 16/A^2
+Orientation penalty scale = 1 (100%)
+Eliminate contacts within 3 bonds.
+Ignore atoms with |occupancy| <= 0.01 during adjustments.
+Waters ignored if B-Factor >= 40 or |occupancy| < 0.66
+Aromatic rings in amino acids accept hydrogen bonds.
+Building or keeping OH & SH Hydrogens.
+Rotating NH3 Hydrogens.
+Not processing Met methyls.
+WARNING: atom H13A from JZ4 will be treated as hydrogen
+WARNING: atom H14A from JZ4 will be treated as hydrogen
+WARNING: atom H13A from JZ4 will be treated as hydrogen
+WARNING: atom H13A from JZ4 will be treated as hydrogen
+WARNING: atom H14A from JZ4 will be treated as hydrogen
+WARNING: atom H14A from JZ4 will be treated as hydrogen
+WARNING: atom H14A from JZ4 will be treated as hydrogen
+WARNING: atom H14A from JZ4 will be treated as hydrogen
+WARNING: atom H13A from JZ4 will be treated as hydrogen
+WARNING: atom H13A from JZ4 will be treated as hydrogen
+WARNING: atom H14A from JZ4 will be treated as hydrogen
+WARNING: atom H13A from JZ4 will be treated as hydrogen
+ Singles(size 1): A 167 JZ4 OAB 
+ orientation 1: A 167 JZ4 OAB :   rot  120: bump=0.000, HB=0.000, total=0.000
+Found 0 hydrogens (0 hets)
+Standardized 0 hydrogens (0 hets)
+Added 12 hydrogens (12 hets)
+Removed 0 hydrogens (0 hets)
+Adjusted 1 group(s)
+If you publish work which uses reduce, please cite:
+Word, et. al. (1999) J. Mol. Biol. 285, 1735-1747.
+For more information see http://kinemage.biochem.duke.edu
+

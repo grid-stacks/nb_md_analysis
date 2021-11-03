@@ -1,0 +1,11 @@
+2021-11-03 06:06:19,699 [MainThread  ] [INFO ]  Hydrogens  is not correct, assigned default value: False
+2021-11-03 06:06:19,700 [MainThread  ] [INFO ]  Steps  is not correct, assigned default value: 2500
+2021-11-03 06:06:19,701 [MainThread  ] [INFO ]  Cut-off  is not correct, assigned default value: False
+2021-11-03 06:06:19,701 [MainThread  ] [INFO ]  Rvdw  is not correct, assigned default value: 6.0
+2021-11-03 06:06:19,702 [MainThread  ] [INFO ]  Rele  is not correct, assigned default value: 10.0
+2021-11-03 06:06:19,703 [MainThread  ] [INFO ]  Frequency  is not correct, assigned default value: 10
+2021-11-03 06:06:19,703 [MainThread  ] [INFO ]  Not using any container
+2021-11-03 06:06:19,704 [MainThread  ] [INFO ]  obminimize -c 1e-10 -sd -ff GAFF -ipdb /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/JZ4.reduce.H.pdb -omol2 > JZ4.H.min.mol2
+
+2021-11-03 06:06:20,287 [MainThread  ] [INFO ]  Exit code 0
+

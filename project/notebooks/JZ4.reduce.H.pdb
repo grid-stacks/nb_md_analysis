@@ -1,0 +1,30 @@
+USER  MOD reduce.3.3.160602 H: found=0, std=0, add=12, rem=0, adj=1
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Single : A 167 JZ4 OAB :   rot  120:sc=       0
+USER  MOD -----------------------------------------------------------------
+HETATM 1376  C4  JZ4 A 167      24.294 -24.124  -0.071  1.00 16.39           C
+HETATM 1377  C7  JZ4 A 167      21.553 -27.214  -4.112  1.00 16.92           C
+HETATM 1378  C8  JZ4 A 167      22.068 -26.747  -5.331  1.00 14.84           C
+HETATM 1379  C9  JZ4 A 167      22.671 -25.512  -5.448  1.00 15.93           C
+HETATM 1380  C10 JZ4 A 167      22.769 -24.730  -4.295  1.00 15.43           C
+HETATM 1381  C11 JZ4 A 167      21.693 -26.459  -2.954  1.00 16.72           C
+HETATM 1382  C12 JZ4 A 167      22.294 -25.187  -3.075  1.00 14.13           C
+HETATM 1383  C13 JZ4 A 167      22.463 -24.414  -1.808  1.00 15.94           C
+HETATM 1384  C14 JZ4 A 167      23.925 -24.704  -1.394  1.00 15.28           C
+HETATM 1385  OAB JZ4 A 167      23.412 -23.536  -4.342  1.00 13.88           O
+HETATM    0 HOAB JZ4 A 167      22.791 -22.820  -4.094  1.00 13.88           H   new
+HETATM    0 H14A JZ4 A 167      24.596 -24.307  -2.156  1.00 15.28           H   new
+HETATM    0 H13A JZ4 A 167      22.295 -23.348  -1.964  1.00 15.94           H   new
+HETATM    0  H9  JZ4 A 167      23.057 -25.160  -6.405  1.00 15.93           H   new
+HETATM    0  H8  JZ4 A 167      21.989 -27.381  -6.214  1.00 14.84           H   new
+HETATM    0  H7  JZ4 A 167      21.040 -28.175  -4.073  1.00 16.92           H   new
+HETATM    0  H4B JZ4 A 167      24.172 -23.041  -0.102  1.00 16.39           H   new
+HETATM    0  H4A JZ4 A 167      23.648 -24.540   0.702  1.00 16.39           H   new
+HETATM    0  H4  JZ4 A 167      25.332 -24.366   0.156  1.00 16.39           H   new
+HETATM    0  H14 JZ4 A 167      24.079 -25.783  -1.365  1.00 15.28           H   new
+HETATM    0  H13 JZ4 A 167      21.758 -24.740  -1.043  1.00 15.94           H   new
+HETATM    0  H11 JZ4 A 167      21.352 -26.834  -1.989  1.00 16.72           H   new
