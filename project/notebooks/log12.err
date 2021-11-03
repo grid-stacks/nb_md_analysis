@@ -1,0 +1,55 @@
+2021-11-04 05:44:19,875 [MainThread  ] [INFO ]                       :-) GROMACS - gmx trjconv, 2019.1 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx trjconv, version 2019.1
+Executable:   /home/dhnchandan/anaconda3/envs/nb_md_analysis/bin/gmx
+Data prefix:  /home/dhnchandan/anaconda3/envs/nb_md_analysis
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx trjconv -f /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_pdb2gmx.gro -s /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_pdb2gmx.gro -o 3HTB_JZ4_complex_H.pdb
+
+Will write pdb: Protein data bank file
+Group     0 (         System) has  2614 elements
+Group     1 (        Protein) has  2614 elements
+Group     2 (      Protein-H) has  1301 elements
+Group     3 (        C-alpha) has   163 elements
+Group     4 (       Backbone) has   489 elements
+Group     5 (      MainChain) has   653 elements
+Group     6 (   MainChain+Cb) has   805 elements
+Group     7 (    MainChain+H) has   815 elements
+Group     8 (      SideChain) has  1799 elements
+Group     9 (    SideChain-H) has   648 elements
+Select a group: Reading frames from gro file 'GROwing Monsters And Cloning Shrimps', 2614 atoms.
+Reading frame       0 time    0.000   
+Precision of /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_pdb2gmx.gro is 0.001 (nm)
+ ->  frame      0 time    0.000      Last frame          0 time    0.000   
+
+
+GROMACS reminds you: "If You Want Something Done You Have to Do It Yourself" (Highlander II)
+
+
