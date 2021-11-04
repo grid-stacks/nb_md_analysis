@@ -1,0 +1,33 @@
+2021-11-04 07:37:58,326 [MainThread  ] [INFO ]                        :-) GROMACS - gmx mdrun, 2019.1 (-:
+
+Executable:   /home/dhnchandan/anaconda3/envs/nb_md_analysis/bin/gmx
+Data prefix:  /home/dhnchandan/anaconda3/envs/nb_md_analysis
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright mdrun -s 3HTB_JZ4_gppmd.tpr -o 3HTB_JZ4_md.trr -c 3HTB_JZ4_md.gro -e 3HTB_JZ4_md.edr -g 3HTB_JZ4_md.log -cpo 3HTB_JZ4_md.cpt
+
+Compiled SIMD: SSE2, but for this host/run AVX2_128 might be better (see log).
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Reading file 3HTB_JZ4_gppmd.tpr, VERSION 2019.1 (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.114
+
+
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+25000 steps,     50.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     3426.270      285.523     1200.0
+                 (ns/day)    (hour/ns)
+Performance:       15.131        1.586
+
+GROMACS reminds you: "Some People Say Not to Worry About the Air" (The Talking Heads)
+
+

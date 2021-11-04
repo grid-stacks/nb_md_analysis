@@ -1,0 +1,38 @@
+2021-11-04 07:33:02,632 [MainThread  ] [INFO ]  Extracting: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_genion_top.zip
+2021-11-04 07:33:02,633 [MainThread  ] [INFO ]  to:
+2021-11-04 07:33:02,634 [MainThread  ] [INFO ]  ['017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/JZ4_posres.itp', '017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/JZ4params.itp', '017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/ligand.top', '017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/posre.itp']
+2021-11-04 07:33:02,634 [MainThread  ] [INFO ]  Unzipping: 
+2021-11-04 07:33:02,635 [MainThread  ] [INFO ]  3HTB_JZ4_genion_top.zip
+2021-11-04 07:33:02,637 [MainThread  ] [INFO ]  To: 
+2021-11-04 07:33:02,637 [MainThread  ] [INFO ]  017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/JZ4_posres.itp
+2021-11-04 07:33:02,638 [MainThread  ] [INFO ]  017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/JZ4params.itp
+2021-11-04 07:33:02,638 [MainThread  ] [INFO ]  017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/ligand.top
+2021-11-04 07:33:02,639 [MainThread  ] [INFO ]  017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/posre.itp
+2021-11-04 07:33:02,640 [MainThread  ] [INFO ]  GROMACS Grompp 20191 version detected
+2021-11-04 07:33:02,641 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 07:33:02,641 [MainThread  ] [INFO ]  gmx -nobackup -nocopyright grompp -f 7ddf0536-df88-480c-b630-89e6634df692/grompp.mdp -c 3HTB_JZ4_npt.gro -r 3HTB_JZ4_npt.gro -p 017d5668-3e5a-4dd2-98b8-fdbf9d11baf8/ligand.top -o 3HTB_JZ4_gppmd.tpr -po mdout.mdp -maxwarn 10 -t 3HTB_JZ4_npt.cpt
+
+2021-11-04 07:33:02,912 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 07:33:02,913 [MainThread  ] [INFO ]  turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   163    Protein residues
+There are:     1      Other residues
+There are:  9505      Water residues
+There are:    26        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 64x64x64, spacing 0.115 0.115 0.115
+This run will generate roughly 11 Mb of data
+
+2021-11-04 07:33:02,915 [MainThread  ] [INFO ]  Removed: ['017d5668-3e5a-4dd2-98b8-fdbf9d11baf8', '7ddf0536-df88-480c-b630-89e6634df692', 'mdout.mdp']
