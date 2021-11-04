@@ -12,6 +12,7 @@ dependencies:
   - biobb_md
   - biobb_chemistry
   - biobb_structure_utils
+  - ambertools
   - nb_conda_kernels
   - plotly
   - nglview
