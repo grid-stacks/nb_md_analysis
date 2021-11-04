@@ -1,0 +1,29 @@
+2021-11-04 06:53:05,437 [MainThread  ] [INFO ]  Extracting: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_genion_top.zip
+2021-11-04 06:53:05,440 [MainThread  ] [INFO ]  to:
+2021-11-04 06:53:05,441 [MainThread  ] [INFO ]  ['9527cae1-facd-4e38-96ff-758aabc7ceaf/JZ4_posres.itp', '9527cae1-facd-4e38-96ff-758aabc7ceaf/JZ4params.itp', '9527cae1-facd-4e38-96ff-758aabc7ceaf/ligand.top', '9527cae1-facd-4e38-96ff-758aabc7ceaf/posre.itp']
+2021-11-04 06:53:05,442 [MainThread  ] [INFO ]  Unzipping: 
+2021-11-04 06:53:05,442 [MainThread  ] [INFO ]  3HTB_JZ4_genion_top.zip
+2021-11-04 06:53:05,443 [MainThread  ] [INFO ]  To: 
+2021-11-04 06:53:05,443 [MainThread  ] [INFO ]  9527cae1-facd-4e38-96ff-758aabc7ceaf/JZ4_posres.itp
+2021-11-04 06:53:05,445 [MainThread  ] [INFO ]  9527cae1-facd-4e38-96ff-758aabc7ceaf/JZ4params.itp
+2021-11-04 06:53:05,446 [MainThread  ] [INFO ]  9527cae1-facd-4e38-96ff-758aabc7ceaf/ligand.top
+2021-11-04 06:53:05,446 [MainThread  ] [INFO ]  9527cae1-facd-4e38-96ff-758aabc7ceaf/posre.itp
+2021-11-04 06:53:05,448 [MainThread  ] [INFO ]  GROMACS Grompp 20191 version detected
+2021-11-04 06:53:05,449 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 06:53:05,449 [MainThread  ] [INFO ]  gmx -nobackup -nocopyright grompp -f 1090892e-60a5-435b-8f34-1d5efd275fca/grompp.mdp -c 3HTB_JZ4_genion.gro -r 3HTB_JZ4_genion.gro -p 9527cae1-facd-4e38-96ff-758aabc7ceaf/ligand.top -o 3HTB_JZ4_gppmin.tpr -po mdout.mdp -maxwarn 10
+
+2021-11-04 06:53:05,752 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 06:53:05,754 [MainThread  ] [INFO ]  Analysing residue names:
+There are:   163    Protein residues
+There are:     1      Other residues
+There are:  9505      Water residues
+There are:    26        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 64x64x64, spacing 0.116 0.116 0.116
+This run will generate roughly 2 Mb of data
+
+2021-11-04 06:53:05,756 [MainThread  ] [INFO ]  Removed: ['9527cae1-facd-4e38-96ff-758aabc7ceaf', '1090892e-60a5-435b-8f34-1d5efd275fca', 'mdout.mdp']
