@@ -33,3 +33,7 @@ Important Output files generated:
 - 3HTB_JZ4_rms_first.xvg: Root Mean Square deviation (RMSd) against minimized and equilibrated structure of the final free MD run step.
 - 3HTB_JZ4_rms_exp.xvg: Root Mean Square deviation (RMSd) against experimental structure of the final free MD run step.
 - 3HTB_JZ4_rgyr.xvg: Radius of Gyration of the final free MD run step of the setup pipeline.
+
+## Amber update time-to-time
+
+`conda update -c conda-forge ambertools`
