@@ -1,0 +1,18 @@
+2021-11-04 06:11:59,341 [MainThread  ] [INFO ]                       :-) GROMACS - gmx genrestr, 2021.2 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright genrestr -f JZ4params.gro -o JZ4_posres.itp -fc 1000 1000 1000 -n JZ4_index.ndx
+
+
+Reading structure file
+Group     0 (         System) has    22 elements
+Group     1 (          Other) has    22 elements
+Group     2 (            JZ4) has    22 elements
+Group     3 (   System_&_!H*) has    10 elements
+Select a group: 
+GROMACS reminds you: "But in my opinion, all things in nature occur mathematically." (Rene Decartes)
+
+

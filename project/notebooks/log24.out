@@ -1,0 +1,33 @@
+2021-11-04 06:12:24,273 [MainThread  ] [INFO ]  GROMACS MakeNdx 20212 version detected
+2021-11-04 06:12:24,275 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 06:12:24,276 [MainThread  ] [INFO ]  echo -e '0 & ! a H*\nq' | /usr/local/gromacs/bin/gmx -nobackup -nocopyright make_ndx -f JZ4params.gro -o JZ4_index.ndx
+
+2021-11-04 06:12:24,293 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 06:12:24,294 [MainThread  ] [INFO ]  Going to read 0 old index file(s)
+Analysing residue names:
+There are:     1      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+  0 System              :    22 atoms
+  1 Other               :    22 atoms
+  2 JZ4                 :    22 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+Copied index group 0 'System'
+Found 12 atoms with name H*
+Complemented group: 10 atoms
+Merged two groups with AND: 22 10 -> 10
+
+  3 System_&_!H*        :    10 atoms
+
+> 
+
+2021-11-04 06:12:24,295 [MainThread  ] [INFO ]  Removed: []

@@ -1,0 +1,12 @@
+2021-11-04 06:10:27,171 [MainThread  ] [INFO ]                       :-) GROMACS - gmx editconf, 2021.2 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright editconf -f 3HTB_JZ4_H.pdb -o 3HTB_JZ4_complex_editconf.gro -d 0.8 -bt octahedron -c
+
+
+GROMACS reminds you: "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human." (Alan Turing)
+
+
