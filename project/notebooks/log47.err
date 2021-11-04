@@ -1,0 +1,41 @@
+2021-11-04 07:18:24,584 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2019.1 (-:
+
+Executable:   /home/dhnchandan/anaconda3/envs/nb_md_analysis/bin/gmx
+Data prefix:  /home/dhnchandan/anaconda3/envs/nb_md_analysis
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright grompp -f d73ea179-9790-497c-8967-877369762590/grompp.mdp -c 3HTB_JZ4_nvt.gro -r 3HTB_JZ4_nvt.gro -p 71a82773-e068-48cd-8c89-eb3d3f65b25f/ligand.top -o 3HTB_JZ4_gppnpt.tpr -po mdout.mdp -maxwarn 10 -t 3HTB_JZ4_nvt.cpt -n 3HTB_JZ4_index.ndx
+
+Setting the LD random seed to -1488473383
+Generated 2556 of the 2556 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2556 of the 2556 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+Excluding 3 bonded neighbours molecule type 'JZ4params'
+Excluding 2 bonded neighbours molecule type 'SOL'
+Excluding 1 bonded neighbours molecule type 'NA'
+Excluding 1 bonded neighbours molecule type 'CL'
+Removing all charge groups because cutoff-scheme=Verlet
+
+NOTE 1 [file ligand.top, line 24865]:
+  You are combining position restraints with Parrinello-Rahman pressure
+  coupling, which can lead to instabilities. If you really want to combine
+  position restraints with pressure coupling, we suggest to use Berendsen
+  pressure coupling instead.
+
+The center of mass of the position restraint coord's is  3.723  5.269  3.044
+The center of mass of the position restraint coord's is  3.723  5.269  3.044
+Number of degrees of freedom in T-Coupling group Protein_Other is 6582.69
+Number of degrees of freedom in T-Coupling group Water_and_ions is 57105.31
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time   10.000   
+Using frame at t = 10 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.20
+
+There was 1 note
+
+GROMACS reminds you: "It always takes longer than you think even when you take Hofstadter's Law into account." (Hofstadter's Law)
+
+

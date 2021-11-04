@@ -1,0 +1,15 @@
+2021-11-04 07:21:58,342 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 07:21:58,343 [MainThread  ] [INFO ]  gmx energy -f /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_npt.edr -o 3HTB_JZ4_npt_PD.xvg -xvg none < c3400ec5-d2df-46a0-941a-88b1ac77c665/instructions.in
+
+2021-11-04 07:21:58,359 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 07:21:58,360 [MainThread  ] [INFO ]  
+Statistics over 5001 steps [ 0.0000 through 10.0000 ps ], 2 data sets
+All statistics are over 51 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Pressure                   -5.72099         23    213.567    137.755  (bar)
+Density                     1027.11        1.8    5.86209    11.6945  (kg/m^3)
+
+2021-11-04 07:21:58,363 [MainThread  ] [INFO ]  Removed: ['c3400ec5-d2df-46a0-941a-88b1ac77c665']
