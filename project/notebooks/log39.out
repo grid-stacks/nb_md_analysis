@@ -1,0 +1,32 @@
+2021-11-04 06:41:01,580 [MainThread  ] [INFO ]  Extracting: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_solvate_top.zip
+2021-11-04 06:41:01,581 [MainThread  ] [INFO ]  to:
+2021-11-04 06:41:01,582 [MainThread  ] [INFO ]  ['f1dbce03-5b02-4273-90f2-e238f01af1da/JZ4_posres.itp', 'f1dbce03-5b02-4273-90f2-e238f01af1da/JZ4params.itp', 'f1dbce03-5b02-4273-90f2-e238f01af1da/ligand.top', 'f1dbce03-5b02-4273-90f2-e238f01af1da/posre.itp']
+2021-11-04 06:41:01,583 [MainThread  ] [INFO ]  Unzipping: 
+2021-11-04 06:41:01,584 [MainThread  ] [INFO ]  3HTB_JZ4_solvate_top.zip
+2021-11-04 06:41:01,584 [MainThread  ] [INFO ]  To: 
+2021-11-04 06:41:01,585 [MainThread  ] [INFO ]  f1dbce03-5b02-4273-90f2-e238f01af1da/JZ4_posres.itp
+2021-11-04 06:41:01,585 [MainThread  ] [INFO ]  f1dbce03-5b02-4273-90f2-e238f01af1da/JZ4params.itp
+2021-11-04 06:41:01,586 [MainThread  ] [INFO ]  f1dbce03-5b02-4273-90f2-e238f01af1da/ligand.top
+2021-11-04 06:41:01,587 [MainThread  ] [INFO ]  f1dbce03-5b02-4273-90f2-e238f01af1da/posre.itp
+2021-11-04 06:41:01,587 [MainThread  ] [INFO ]  To reach up 0.05 mol/litre concentration
+2021-11-04 06:41:01,588 [MainThread  ] [INFO ]  GROMACS Genion 20191 version detected
+2021-11-04 06:41:01,589 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 06:41:01,589 [MainThread  ] [INFO ]  echo "SOL" | gmx -nobackup -nocopyright genion -s 3HTB_JZ4_complex_gppion.tpr -o 3HTB_JZ4_genion.gro -p f1dbce03-5b02-4273-90f2-e238f01af1da/ligand.top -neutral -conc 0.05 -seed 1993
+
+2021-11-04 06:41:01,678 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 06:41:01,679 [MainThread  ] [INFO ]  Will try to add 10 NA ions and 16 CL ions.
+Select a continuous group of solvent molecules
+Selected 15: 'SOL'
+
+Processing topology
+Replacing 26 solute molecules in topology file (f1dbce03-5b02-4273-90f2-e238f01af1da/ligand.top)  by 10 NA and 16 CL ions.
+
+2021-11-04 06:41:01,680 [MainThread  ] [INFO ]  Compressing topology to: 3HTB_JZ4_genion_top.zip
+2021-11-04 06:41:01,681 [MainThread  ] [INFO ]  Ignored file f1dbce03-5b02-4273-90f2-e238f01af1da/amber99sb-ildn.ff/forcefield.itp
+2021-11-04 06:41:01,695 [MainThread  ] [INFO ]  Ignored file f1dbce03-5b02-4273-90f2-e238f01af1da/amber99sb-ildn.ff/spce.itp
+2021-11-04 06:41:01,696 [MainThread  ] [INFO ]  Ignored file f1dbce03-5b02-4273-90f2-e238f01af1da/amber99sb-ildn.ff/ions.itp
+2021-11-04 06:41:01,701 [MainThread  ] [INFO ]  Adding:
+2021-11-04 06:41:01,701 [MainThread  ] [INFO ]  ['f1dbce03-5b02-4273-90f2-e238f01af1da/JZ4_posres.itp', 'f1dbce03-5b02-4273-90f2-e238f01af1da/JZ4params.itp', 'f1dbce03-5b02-4273-90f2-e238f01af1da/ligand.top', 'f1dbce03-5b02-4273-90f2-e238f01af1da/posre.itp']
+2021-11-04 06:41:01,702 [MainThread  ] [INFO ]  to: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_genion_top.zip
+2021-11-04 06:41:01,703 [MainThread  ] [INFO ]  Removed: ['f1dbce03-5b02-4273-90f2-e238f01af1da']

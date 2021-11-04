@@ -1,0 +1,60 @@
+2021-11-04 06:41:01,680 [MainThread  ] [INFO ]                        :-) GROMACS - gmx genion, 2019.1 (-:
+
+Executable:   /home/dhnchandan/anaconda3/envs/nb_md_analysis/bin/gmx
+Data prefix:  /home/dhnchandan/anaconda3/envs/nb_md_analysis
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright genion -s 3HTB_JZ4_complex_gppion.tpr -o 3HTB_JZ4_genion.gro -p f1dbce03-5b02-4273-90f2-e238f01af1da/ligand.top -neutral -conc 0.05 -seed 1993
+
+Reading file 3HTB_JZ4_complex_gppion.tpr, VERSION 2019.1 (single precision)
+Reading file 3HTB_JZ4_complex_gppion.tpr, VERSION 2019.1 (single precision)
+Group     0 (         System) has 31229 elements
+Group     1 (        Protein) has  2614 elements
+Group     2 (      Protein-H) has  1301 elements
+Group     3 (        C-alpha) has   163 elements
+Group     4 (       Backbone) has   489 elements
+Group     5 (      MainChain) has   653 elements
+Group     6 (   MainChain+Cb) has   805 elements
+Group     7 (    MainChain+H) has   815 elements
+Group     8 (      SideChain) has  1799 elements
+Group     9 (    SideChain-H) has   648 elements
+Group    10 (    Prot-Masses) has  2614 elements
+Group    11 (    non-Protein) has 28615 elements
+Group    12 (          Other) has    22 elements
+Group    13 (            JZ4) has    22 elements
+Group    14 (          Water) has 28593 elements
+Group    15 (            SOL) has 28593 elements
+Group    16 (      non-Water) has  2636 elements
+Select a group: Number of (3-atomic) solvent molecules: 9531
+Using random seed 1993.
+Replacing solvent molecule 6684 (atom 22688) with NA
+Replacing solvent molecule 3713 (atom 13775) with NA
+Replacing solvent molecule 6865 (atom 23231) with NA
+Replacing solvent molecule 6607 (atom 22457) with NA
+Replacing solvent molecule 2054 (atom 8798) with NA
+Replacing solvent molecule 3610 (atom 13466) with NA
+Replacing solvent molecule 2213 (atom 9275) with NA
+Replacing solvent molecule 2304 (atom 9548) with NA
+Replacing solvent molecule 1640 (atom 7556) with NA
+Replacing solvent molecule 2994 (atom 11618) with NA
+Replacing solvent molecule 905 (atom 5351) with CL
+Replacing solvent molecule 4068 (atom 14840) with CL
+Replacing solvent molecule 9064 (atom 29828) with CL
+Replacing solvent molecule 4558 (atom 16310) with CL
+Replacing solvent molecule 1900 (atom 8336) with CL
+Replacing solvent molecule 7505 (atom 25151) with CL
+Replacing solvent molecule 9184 (atom 30188) with CL
+Replacing solvent molecule 5771 (atom 19949) with CL
+Replacing solvent molecule 6751 (atom 22889) with CL
+Replacing solvent molecule 2902 (atom 11342) with CL
+Replacing solvent molecule 2024 (atom 8708) with CL
+Replacing solvent molecule 8521 (atom 28199) with CL
+Replacing solvent molecule 909 (atom 5363) with CL
+Replacing solvent molecule 3452 (atom 12992) with CL
+Replacing solvent molecule 3869 (atom 14243) with CL
+Replacing solvent molecule 4530 (atom 16226) with CL
+
+
+GROMACS reminds you: "When I asked a younger colleague at the university how he had been able to change his research field several times within a decade or so, he answered: "It's just a question of new software"" (Paul Verhaeghe)
+
+
