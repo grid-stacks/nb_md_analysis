@@ -1,0 +1,12 @@
+2021-11-04 06:01:46,462 [MainThread  ] [INFO ]                       :-) GROMACS - gmx editconf, 2019.1 (-:
+
+Executable:   /home/dhnchandan/anaconda3/envs/nb_md_analysis/bin/gmx
+Data prefix:  /home/dhnchandan/anaconda3/envs/nb_md_analysis
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright editconf -f 3HTB_JZ4_H.pdb -o 3HTB_JZ4_complex_editconf.gro -d 0.8 -bt octahedron -c
+
+
+GROMACS reminds you: "It seemed a good idea at first" (Gerrit Groenhof)
+
+
