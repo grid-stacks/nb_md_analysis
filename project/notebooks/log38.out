@@ -1,0 +1,35 @@
+2021-11-04 06:38:23,768 [MainThread  ] [INFO ]  Extracting: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_solvate_top.zip
+2021-11-04 06:38:23,770 [MainThread  ] [INFO ]  to:
+2021-11-04 06:38:23,770 [MainThread  ] [INFO ]  ['fe7be492-16a0-45a1-bd35-6ca44b2b708d/JZ4_posres.itp', 'fe7be492-16a0-45a1-bd35-6ca44b2b708d/JZ4params.itp', 'fe7be492-16a0-45a1-bd35-6ca44b2b708d/ligand.top', 'fe7be492-16a0-45a1-bd35-6ca44b2b708d/posre.itp']
+2021-11-04 06:38:23,771 [MainThread  ] [INFO ]  Unzipping: 
+2021-11-04 06:38:23,772 [MainThread  ] [INFO ]  3HTB_JZ4_solvate_top.zip
+2021-11-04 06:38:23,772 [MainThread  ] [INFO ]  To: 
+2021-11-04 06:38:23,773 [MainThread  ] [INFO ]  fe7be492-16a0-45a1-bd35-6ca44b2b708d/JZ4_posres.itp
+2021-11-04 06:38:23,774 [MainThread  ] [INFO ]  fe7be492-16a0-45a1-bd35-6ca44b2b708d/JZ4params.itp
+2021-11-04 06:38:23,774 [MainThread  ] [INFO ]  fe7be492-16a0-45a1-bd35-6ca44b2b708d/ligand.top
+2021-11-04 06:38:23,775 [MainThread  ] [INFO ]  fe7be492-16a0-45a1-bd35-6ca44b2b708d/posre.itp
+2021-11-04 06:38:23,776 [MainThread  ] [INFO ]  GROMACS Grompp 20191 version detected
+2021-11-04 06:38:23,776 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 06:38:23,777 [MainThread  ] [INFO ]  gmx -nobackup -nocopyright grompp -f f1600fae-8a67-498e-a0a0-6cd0074f2549/grompp.mdp -c 3HTB_JZ4_solvate.gro -r 3HTB_JZ4_solvate.gro -p fe7be492-16a0-45a1-bd35-6ca44b2b708d/ligand.top -o 3HTB_JZ4_complex_gppion.tpr -po mdout.mdp -maxwarn 1
+
+2021-11-04 06:38:24,117 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 06:38:24,118 [MainThread  ] [INFO ]  
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmueller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. 10 (2014) pp. 381-393
+-------- -------- --- Thank You --- -------- --------
+
+Analysing residue names:
+There are:   163    Protein residues
+There are:     1      Other residues
+There are:  9531      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 64x64x64, spacing 0.116 0.116 0.116
+This run will generate roughly 2 Mb of data
+
+2021-11-04 06:38:24,121 [MainThread  ] [INFO ]  Removed: ['fe7be492-16a0-45a1-bd35-6ca44b2b708d', 'f1600fae-8a67-498e-a0a0-6cd0074f2549', 'mdout.mdp']

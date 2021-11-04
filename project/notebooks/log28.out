@@ -1,0 +1,25 @@
+2021-11-04 06:30:12,669 [MainThread  ] [INFO ]  Extracting: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_solvate_top.zip
+2021-11-04 06:30:12,670 [MainThread  ] [INFO ]  to:
+2021-11-04 06:30:12,671 [MainThread  ] [INFO ]  ['f75d7e1b-4883-46dc-9a1b-cec0e92613d1/JZ4_posres.itp', 'f75d7e1b-4883-46dc-9a1b-cec0e92613d1/JZ4params.itp', 'f75d7e1b-4883-46dc-9a1b-cec0e92613d1/ligand.top', 'f75d7e1b-4883-46dc-9a1b-cec0e92613d1/posre.itp']
+2021-11-04 06:30:12,672 [MainThread  ] [INFO ]  Unzipping: 
+2021-11-04 06:30:12,672 [MainThread  ] [INFO ]  3HTB_JZ4_solvate_top.zip
+2021-11-04 06:30:12,672 [MainThread  ] [INFO ]  To: 
+2021-11-04 06:30:12,673 [MainThread  ] [INFO ]  f75d7e1b-4883-46dc-9a1b-cec0e92613d1/JZ4_posres.itp
+2021-11-04 06:30:12,673 [MainThread  ] [INFO ]  f75d7e1b-4883-46dc-9a1b-cec0e92613d1/JZ4params.itp
+2021-11-04 06:30:12,674 [MainThread  ] [INFO ]  f75d7e1b-4883-46dc-9a1b-cec0e92613d1/ligand.top
+2021-11-04 06:30:12,675 [MainThread  ] [INFO ]  f75d7e1b-4883-46dc-9a1b-cec0e92613d1/posre.itp
+2021-11-04 06:30:12,676 [MainThread  ] [INFO ]  To reach up 0.05 mol/litre concentration
+2021-11-04 06:30:12,676 [MainThread  ] [INFO ]  GROMACS Genion 20212 version detected
+2021-11-04 06:30:12,677 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 06:30:12,678 [MainThread  ] [INFO ]  echo "SOL" | /usr/local/gromacs/bin/gmx -nobackup -nocopyright genion -s 3HTB_JZ4_complex_gppion.tpr -o 3HTB_JZ4_genion.gro -p f75d7e1b-4883-46dc-9a1b-cec0e92613d1/ligand.top -neutral -conc 0.05 -seed 1993
+
+2021-11-04 06:30:12,701 [MainThread  ] [INFO ]  Exit code 1
+
+2021-11-04 06:30:12,706 [MainThread  ] [INFO ]  Compressing topology to: 3HTB_JZ4_genion_top.zip
+2021-11-04 06:30:12,707 [MainThread  ] [INFO ]  Ignored file f75d7e1b-4883-46dc-9a1b-cec0e92613d1/amber99sb-ildn.ff/forcefield.itp
+2021-11-04 06:30:12,720 [MainThread  ] [INFO ]  Ignored file f75d7e1b-4883-46dc-9a1b-cec0e92613d1/amber99sb-ildn.ff/spce.itp
+2021-11-04 06:30:12,721 [MainThread  ] [INFO ]  Ignored file f75d7e1b-4883-46dc-9a1b-cec0e92613d1/amber99sb-ildn.ff/ions.itp
+2021-11-04 06:30:12,724 [MainThread  ] [INFO ]  Adding:
+2021-11-04 06:30:12,724 [MainThread  ] [INFO ]  ['f75d7e1b-4883-46dc-9a1b-cec0e92613d1/JZ4_posres.itp', 'f75d7e1b-4883-46dc-9a1b-cec0e92613d1/JZ4params.itp', 'f75d7e1b-4883-46dc-9a1b-cec0e92613d1/ligand.top', 'f75d7e1b-4883-46dc-9a1b-cec0e92613d1/posre.itp']
+2021-11-04 06:30:12,725 [MainThread  ] [INFO ]  to: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_genion_top.zip
+2021-11-04 06:30:12,726 [MainThread  ] [INFO ]  Removed: ['f75d7e1b-4883-46dc-9a1b-cec0e92613d1']

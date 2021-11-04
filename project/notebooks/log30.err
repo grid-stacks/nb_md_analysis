@@ -1,0 +1,81 @@
+2021-11-04 06:35:18,917 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2019.1 (-:
+
+Executable:   /home/dhnchandan/anaconda3/envs/nb_md_analysis/bin/gmx
+Data prefix:  /home/dhnchandan/anaconda3/envs/nb_md_analysis
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright grompp -f c9ac96f7-42d7-4ddd-be74-3024315e84b4/grompp.mdp -c 3HTB_JZ4_solvate.gro -r 3HTB_JZ4_solvate.gro -p 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top -o 3HTB_JZ4_complex_gppion.tpr -po mdout.mdp -maxwarn 1
+
+Setting the LD random seed to -1359073594
+Generated 2556 of the 2556 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2556 of the 2556 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+Excluding 3 bonded neighbours molecule type 'JZ4params'
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+NOTE 1 [file ligand.top, line 24863]:
+  System has non-zero total charge: 5.999999
+  Total charge should normally be an integer. See
+  http://www.gromacs.org/Documentation/Floating_Point_Arithmetic
+  for discussion on how close it should be to an integer.
+  
+
+
+
+WARNING 1 [file ligand.top, line 24863]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+Warning: atom name 30 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD21 - 1HD2)
+Warning: atom name 31 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD22 - 2HD2)
+Warning: atom name 41 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG21 - 1HG2)
+Warning: atom name 42 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG22 - 2HG2)
+Warning: atom name 43 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG23 - 3HG2)
+Warning: atom name 45 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG11 - 1HG1)
+Warning: atom name 46 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG12 - 2HG1)
+Warning: atom name 115 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD11 - 1HD1)
+Warning: atom name 116 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD12 - 2HD1)
+Warning: atom name 117 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD13 - 3HD1)
+Warning: atom name 119 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD21 - 1HD2)
+Warning: atom name 120 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD22 - 2HD2)
+Warning: atom name 121 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD23 - 3HD2)
+Warning: atom name 141 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH11 - 1HH1)
+Warning: atom name 142 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH12 - 2HH1)
+Warning: atom name 144 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH21 - 1HH2)
+Warning: atom name 145 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH22 - 2HH2)
+Warning: atom name 155 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG21 - 1HG2)
+Warning: atom name 156 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG22 - 2HG2)
+Warning: atom name 157 in 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG23 - 3HG2)
+(more than 20 non-matching atom names)
+
+WARNING 2 [file ligand.top, line 24863]:
+  307 non-matching atom names
+  atom names from 890aff58-2b5b-47dd-95d8-bbc6a3c456b0/ligand.top will be
+  used
+  atom names from 3HTB_JZ4_solvate.gro will be ignored
+
+
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 65091.00
+Estimate for the relative computational load of the PME mesh part: 0.18
+
+There was 1 note
+
+There were 2 warnings
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.1
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 2309)
+
+Fatal error:
+Too many warnings (2).
+If you are sure all warnings are harmless, use the -maxwarn option.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+

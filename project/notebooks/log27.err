@@ -1,0 +1,94 @@
+2021-11-04 06:29:35,283 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2021.2 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright grompp -f 24a0a63c-857e-4fb3-a2be-1b8c2547b658/grompp.mdp -c 3HTB_JZ4_solvate.gro -r 3HTB_JZ4_solvate.gro -p 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top -o 3HTB_JZ4_complex_gppion.tpr -po mdout.mdp -maxwarn 1
+
+Ignoring obsolete mdp entry 'ns-type'
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file ligand.top, line 24863]:
+  System has non-zero total charge: 5.999999
+  Total charge should normally be an integer. See
+  http://www.gromacs.org/Documentation/Floating_Point_Arithmetic
+  for discussion on how close it should be to an integer.
+  
+
+
+
+WARNING 1 [file ligand.top, line 24863]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+atom name 30 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD21 - 1HD2)
+
+atom name 31 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD22 - 2HD2)
+
+atom name 41 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG21 - 1HG2)
+
+atom name 42 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG22 - 2HG2)
+
+atom name 43 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG23 - 3HG2)
+
+atom name 45 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG11 - 1HG1)
+
+atom name 46 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG12 - 2HG1)
+
+atom name 115 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD11 - 1HD1)
+
+atom name 116 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD12 - 2HD1)
+
+atom name 117 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD13 - 3HD1)
+
+atom name 119 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD21 - 1HD2)
+
+atom name 120 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD22 - 2HD2)
+
+atom name 121 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD23 - 3HD2)
+
+atom name 141 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH11 - 1HH1)
+
+atom name 142 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH12 - 2HH1)
+
+atom name 144 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH21 - 1HH2)
+
+atom name 145 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH22 - 2HH2)
+
+atom name 155 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG21 - 1HG2)
+
+atom name 156 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG22 - 2HG2)
+
+atom name 157 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG23 - 3HG2)
+
+(more than 20 non-matching atom names)
+
+WARNING 2 [file ligand.top, line 24863]:
+  307 non-matching atom names
+  atom names from 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top will be
+  used
+  atom names from 3HTB_JZ4_solvate.gro will be ignored
+
+
+Number of degrees of freedom in T-Coupling group rest is 65091.00
+
+There was 1 note
+
+There were 2 warnings
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2021.2
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 2389)
+
+Fatal error:
+Too many warnings (2).
+If you are sure all warnings are harmless, use the -maxwarn option.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+

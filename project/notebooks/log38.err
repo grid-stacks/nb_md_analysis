@@ -1,0 +1,43 @@
+2021-11-04 06:38:24,119 [MainThread  ] [INFO ]                        :-) GROMACS - gmx grompp, 2019.1 (-:
+
+Executable:   /home/dhnchandan/anaconda3/envs/nb_md_analysis/bin/gmx
+Data prefix:  /home/dhnchandan/anaconda3/envs/nb_md_analysis
+Working dir:  /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks
+Command line:
+  gmx -nobackup -nocopyright grompp -f f1600fae-8a67-498e-a0a0-6cd0074f2549/grompp.mdp -c 3HTB_JZ4_solvate.gro -r 3HTB_JZ4_solvate.gro -p fe7be492-16a0-45a1-bd35-6ca44b2b708d/ligand.top -o 3HTB_JZ4_complex_gppion.tpr -po mdout.mdp -maxwarn 1
+
+Setting the LD random seed to 554280203
+Generated 2556 of the 2556 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2556 of the 2556 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+Excluding 3 bonded neighbours molecule type 'JZ4params'
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+NOTE 1 [file ligand.top, line 24863]:
+  System has non-zero total charge: 5.999999
+  Total charge should normally be an integer. See
+  http://www.gromacs.org/Documentation/Floating_Point_Arithmetic
+  for discussion on how close it should be to an integer.
+  
+
+
+
+WARNING 1 [file ligand.top, line 24863]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+Removing all charge groups because cutoff-scheme=Verlet
+Number of degrees of freedom in T-Coupling group rest is 65091.00
+Estimate for the relative computational load of the PME mesh part: 0.18
+
+There was 1 note
+
+There was 1 warning
+
+GROMACS reminds you: "Here, kitty, kitty..." (Erwin Schroedinger)
+
+

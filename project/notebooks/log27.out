@@ -1,0 +1,91 @@
+2021-11-04 06:29:34,805 [MainThread  ] [INFO ]  Extracting: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_solvate_top.zip
+2021-11-04 06:29:34,807 [MainThread  ] [INFO ]  to:
+2021-11-04 06:29:34,807 [MainThread  ] [INFO ]  ['7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/JZ4_posres.itp', '7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/JZ4params.itp', '7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top', '7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/posre.itp']
+2021-11-04 06:29:34,808 [MainThread  ] [INFO ]  Unzipping: 
+2021-11-04 06:29:34,809 [MainThread  ] [INFO ]  3HTB_JZ4_solvate_top.zip
+2021-11-04 06:29:34,810 [MainThread  ] [INFO ]  To: 
+2021-11-04 06:29:34,810 [MainThread  ] [INFO ]  7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/JZ4_posres.itp
+2021-11-04 06:29:34,811 [MainThread  ] [INFO ]  7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/JZ4params.itp
+2021-11-04 06:29:34,812 [MainThread  ] [INFO ]  7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top
+2021-11-04 06:29:34,812 [MainThread  ] [INFO ]  7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/posre.itp
+2021-11-04 06:29:34,813 [MainThread  ] [INFO ]  GROMACS Grompp 20212 version detected
+2021-11-04 06:29:34,814 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 06:29:34,815 [MainThread  ] [INFO ]  /usr/local/gromacs/bin/gmx -nobackup -nocopyright grompp -f 24a0a63c-857e-4fb3-a2be-1b8c2547b658/grompp.mdp -c 3HTB_JZ4_solvate.gro -r 3HTB_JZ4_solvate.gro -p 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top -o 3HTB_JZ4_complex_gppion.tpr -po mdout.mdp -maxwarn 1
+
+2021-11-04 06:29:35,281 [MainThread  ] [INFO ]  Exit code 1
+
+2021-11-04 06:29:35,283 [MainThread  ] [INFO ]  Setting the LD random seed to -1596235821
+
+Generated 2556 of the 2556 non-bonded parameter combinations
+
+Generated 2556 of the 2556 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+Excluding 3 bonded neighbours molecule type 'JZ4params'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmueller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. 10 (2014) pp. 381-393
+-------- -------- --- Thank You --- -------- --------
+
+
+atom name 30 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD21 - 1HD2)
+
+atom name 31 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD22 - 2HD2)
+
+atom name 41 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG21 - 1HG2)
+
+atom name 42 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG22 - 2HG2)
+
+atom name 43 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG23 - 3HG2)
+
+atom name 45 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG11 - 1HG1)
+
+atom name 46 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG12 - 2HG1)
+
+atom name 115 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD11 - 1HD1)
+
+atom name 116 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD12 - 2HD1)
+
+atom name 117 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD13 - 3HD1)
+
+atom name 119 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD21 - 1HD2)
+
+atom name 120 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD22 - 2HD2)
+
+atom name 121 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HD23 - 3HD2)
+
+atom name 141 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH11 - 1HH1)
+
+atom name 142 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH12 - 2HH1)
+
+atom name 144 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH21 - 1HH2)
+
+atom name 145 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HH22 - 2HH2)
+
+atom name 155 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG21 - 1HG2)
+
+atom name 156 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG22 - 2HG2)
+
+atom name 157 in 7ba5eed8-a843-46bb-a3a7-2ec605f9e62e/ligand.top and 3HTB_JZ4_solvate.gro does not match (HG23 - 3HG2)
+
+(more than 20 non-matching atom names)
+Analysing residue names:
+There are:   163    Protein residues
+There are:     1      Other residues
+There are:  9531      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 64x64x64, spacing 0.116 0.116 0.116
+
+Estimate for the relative computational load of the PME mesh part: 0.21
+
+This run will generate roughly 2 Mb of data
+
+2021-11-04 06:29:35,286 [MainThread  ] [INFO ]  Removed: ['7ba5eed8-a843-46bb-a3a7-2ec605f9e62e', '24a0a63c-857e-4fb3-a2be-1b8c2547b658', 'mdout.mdp']

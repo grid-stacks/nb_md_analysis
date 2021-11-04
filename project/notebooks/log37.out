@@ -1,0 +1,44 @@
+2021-11-04 06:38:16,560 [MainThread  ] [INFO ]  Extracting: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_complex.top.zip
+2021-11-04 06:38:16,562 [MainThread  ] [INFO ]  to:
+2021-11-04 06:38:16,563 [MainThread  ] [INFO ]  ['f4f57e82-d94a-48ed-a37b-bb40f75acb24/JZ4_posres.itp', 'f4f57e82-d94a-48ed-a37b-bb40f75acb24/JZ4params.itp', 'f4f57e82-d94a-48ed-a37b-bb40f75acb24/ligand.top', 'f4f57e82-d94a-48ed-a37b-bb40f75acb24/posre.itp']
+2021-11-04 06:38:16,564 [MainThread  ] [INFO ]  Unzipping: 
+2021-11-04 06:38:16,566 [MainThread  ] [INFO ]  3HTB_JZ4_complex.top.zip
+2021-11-04 06:38:16,567 [MainThread  ] [INFO ]  To: 
+2021-11-04 06:38:16,567 [MainThread  ] [INFO ]  f4f57e82-d94a-48ed-a37b-bb40f75acb24/JZ4_posres.itp
+2021-11-04 06:38:16,568 [MainThread  ] [INFO ]  f4f57e82-d94a-48ed-a37b-bb40f75acb24/JZ4params.itp
+2021-11-04 06:38:16,569 [MainThread  ] [INFO ]  f4f57e82-d94a-48ed-a37b-bb40f75acb24/ligand.top
+2021-11-04 06:38:16,569 [MainThread  ] [INFO ]  f4f57e82-d94a-48ed-a37b-bb40f75acb24/posre.itp
+2021-11-04 06:38:16,570 [MainThread  ] [INFO ]  GROMACS Solvate 20191 version detected
+2021-11-04 06:38:16,571 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 06:38:16,572 [MainThread  ] [INFO ]  gmx -nobackup -nocopyright solvate -cp 3HTB_JZ4_complex_editconf.gro -cs spc216.gro -o 3HTB_JZ4_solvate.gro -p f4f57e82-d94a-48ed-a37b-bb40f75acb24/ligand.top
+
+2021-11-04 06:38:16,847 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 06:38:16,849 [MainThread  ] [INFO ]  
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Adding line for 9531 solvent molecules with resname (SOL) to topology file (f4f57e82-d94a-48ed-a37b-bb40f75acb24/ligand.top)
+
+2021-11-04 06:38:16,851 [MainThread  ] [INFO ]  Compressing topology to: 3HTB_JZ4_solvate_top.zip
+2021-11-04 06:38:16,852 [MainThread  ] [INFO ]  Ignored file f4f57e82-d94a-48ed-a37b-bb40f75acb24/amber99sb-ildn.ff/forcefield.itp
+2021-11-04 06:38:16,865 [MainThread  ] [INFO ]  Ignored file f4f57e82-d94a-48ed-a37b-bb40f75acb24/amber99sb-ildn.ff/spce.itp
+2021-11-04 06:38:16,866 [MainThread  ] [INFO ]  Ignored file f4f57e82-d94a-48ed-a37b-bb40f75acb24/amber99sb-ildn.ff/ions.itp
+2021-11-04 06:38:16,873 [MainThread  ] [INFO ]  Adding:
+2021-11-04 06:38:16,874 [MainThread  ] [INFO ]  ['f4f57e82-d94a-48ed-a37b-bb40f75acb24/JZ4_posres.itp', 'f4f57e82-d94a-48ed-a37b-bb40f75acb24/JZ4params.itp', 'f4f57e82-d94a-48ed-a37b-bb40f75acb24/ligand.top', 'f4f57e82-d94a-48ed-a37b-bb40f75acb24/posre.itp']
+2021-11-04 06:38:16,875 [MainThread  ] [INFO ]  to: /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_solvate_top.zip
+2021-11-04 06:38:16,876 [MainThread  ] [INFO ]  Removed: ['f4f57e82-d94a-48ed-a37b-bb40f75acb24']
