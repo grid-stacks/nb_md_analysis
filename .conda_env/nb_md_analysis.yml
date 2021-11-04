@@ -3,6 +3,7 @@ name: nb_md_analysis
 channels:
   - conda-forge
   - bioconda
+  - ambermd
 
 dependencies:
   - biobb_analysis
@@ -15,4 +16,6 @@ dependencies:
   - plotly
   - nglview
   - simpletraj
+  - moviepy
+  - freeimage
   - conda
