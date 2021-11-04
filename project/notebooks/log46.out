@@ -1,0 +1,14 @@
+2021-11-04 07:10:34,326 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 07:10:34,327 [MainThread  ] [INFO ]  gmx energy -f /home/dhnchandan/Documents/cc/gromacs/nb_md_analysis/project/notebooks/3HTB_JZ4_nvt.edr -o 3HTB_JZ4_nvt_temp.xvg -xvg none < 002b83f0-cbfa-4ddb-99ea-4faaf8c9e6c4/instructions.in
+
+2021-11-04 07:10:34,346 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 07:10:34,347 [MainThread  ] [INFO ]  
+Statistics over 5001 steps [ 0.0000 through 10.0000 ps ], 1 data sets
+All statistics are over 51 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Temperature                  298.11        1.6    8.59273    8.44815  (K)
+
+2021-11-04 07:10:34,349 [MainThread  ] [INFO ]  Removed: ['002b83f0-cbfa-4ddb-99ea-4faaf8c9e6c4']

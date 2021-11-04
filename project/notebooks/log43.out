@@ -1,0 +1,58 @@
+2021-11-04 07:05:11,396 [MainThread  ] [INFO ]  GROMACS MakeNdx 20191 version detected
+2021-11-04 07:05:11,396 [MainThread  ] [INFO ]  Not using any container
+2021-11-04 07:05:11,397 [MainThread  ] [INFO ]  echo -e '"Protein"|"Other"\nq' | gmx -nobackup -nocopyright make_ndx -f 3HTB_JZ4_min.gro -o 3HTB_JZ4_index.ndx
+
+2021-11-04 07:05:11,512 [MainThread  ] [INFO ]  Exit code 0
+
+2021-11-04 07:05:11,512 [MainThread  ] [INFO ]  Going to read 0 old index file(s)
+Analysing residue names:
+There are:   163    Protein residues
+There are:     1      Other residues
+There are:  9505      Water residues
+There are:    26        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+  0 System              : 31177 atoms
+  1 Protein             :  2614 atoms
+  2 Protein-H           :  1301 atoms
+  3 C-alpha             :   163 atoms
+  4 Backbone            :   489 atoms
+  5 MainChain           :   653 atoms
+  6 MainChain+Cb        :   805 atoms
+  7 MainChain+H         :   815 atoms
+  8 SideChain           :  1799 atoms
+  9 SideChain-H         :   648 atoms
+ 10 Prot-Masses         :  2614 atoms
+ 11 non-Protein         : 28563 atoms
+ 12 Other               :    22 atoms
+ 13 JZ4                 :    22 atoms
+ 14 NA                  :    10 atoms
+ 15 CL                  :    16 atoms
+ 16 Water               : 28515 atoms
+ 17 SOL                 : 28515 atoms
+ 18 non-Water           :  2662 atoms
+ 19 Ion                 :    26 atoms
+ 20 JZ4                 :    22 atoms
+ 21 NA                  :    10 atoms
+ 22 CL                  :    16 atoms
+ 23 Water_and_ions      : 28541 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+Copied index group 1 'Protein'
+Copied index group 12 'Other'
+Merged two groups with OR: 2614 22 -> 2636
+
+ 24 Protein_Other       :  2636 atoms
+
+> 
+
+2021-11-04 07:05:11,514 [MainThread  ] [INFO ]  Removed: []
